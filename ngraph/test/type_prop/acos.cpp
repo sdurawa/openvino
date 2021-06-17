@@ -4,6 +4,6 @@
 
 #include "unary_ops.hpp"
 
-using Type = ::testing::Types<ngraph::op::Acos>;
+using Type1 = ::testing::Types<ngraph::op::Acos>;
 
-INSTANTIATE_TYPED_TEST_CASE_P(type_prop_acos, UnaryOperator, Type);
+INSTANTIATE_TYPED_TEST_CASE_P(type_prop_acos, UnaryOperator, Type1);
